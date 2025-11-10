@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan</title>
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon_io/site.webmanifest">
+    
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -137,18 +144,20 @@
             align-items: center;
         }
 
+        /* LOGO CON IMAGEN - MÁS GRANDE */
         .logo {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-            background: linear-gradient(135deg, #fff, var(--primary-red));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            cursor: pointer;
+            height: 70px; /* Aumentado de 50px a 70px */
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 100%;
+            width: auto;
             transition: transform 0.3s ease;
         }
 
-        .logo:hover {
+        .logo:hover img {
             transform: scale(1.05);
         }
 
@@ -915,6 +924,11 @@
             .footer-content {
                 grid-template-columns: repeat(2, 1fr);
             }
+            
+            /* Ajuste del logo en móviles */
+            .logo {
+                height: 50px; /* Reducido ligeramente para móviles */
+            }
         }
 
         @media (max-width: 768px) {
@@ -963,6 +977,11 @@
             .whatsapp-tooltip {
                 display: none;
             }
+            
+            /* Ajuste del logo en móviles más pequeños */
+            .logo {
+                height: 45px;
+            }
         }
 
         @media (max-width: 576px) {
@@ -975,7 +994,10 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <div class="logo">BLACK STUDIO</div>
+            <!-- LOGO COMO IMAGEN - MÁS GRANDE -->
+            <div class="logo">
+                <img src="static/img/logotipo.png" alt="BLACK STUDIO CROSSGYM">
+            </div>
             <div class="menu-toggle" id="menuToggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -1127,7 +1149,7 @@
                 <span class="section-label">/// NUESTRO ESPACIO</span>
                 <h2 class="section-title">CONOCE BLACK STUDIO</h2>
                 <p class="section-description">
-                    Instalaciones de clase mundial diseñadas para maximizar tu experiencia de entrenamiento.
+                    Instalaciones competitivas diseñadas para maximizar tu experiencia de entrenamiento.
                 </p>
             </div>
 
@@ -1360,7 +1382,7 @@
                 <div class="footer-column">
                     <h3>BLACK STUDIO</h3>
                     <p>
-                        El gimnasio más avanzado de Zapopan, Jalisco. Transformamos vidas a través del fitness inteligente y la dedicación incansable.
+                        EL STUDIO con amplia experiencia de Zapopan, Jalisco. Transformamos vidas a través del fitness inteligente y la dedicación incansable.
                     </p>
                     <div class="social-links">
                         <a href="https://www.instagram.com/blackstudio_training/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
