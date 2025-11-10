@@ -28,7 +28,7 @@
     <meta property="twitter:url" content="https://blackstudiocrossgym.com/">
     <meta property="twitter:title" content="BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan">
     <meta property="twitter:description" content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
-    <meta property="twitter:image" content="https://blackstudiocrossgym.com/static/img/logo.png">
+    <meta property="twitter:image" content="https://blackstudiocrossgym.com/static/img/logotipo.png">
     
     <!-- WhatsApp -->
     <meta property="og:site_name" content="BLACK STUDIO CROSSGYM">
@@ -157,7 +157,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 20px 0;
+            padding: 25px 0; /* Aumentado para logo más grande */
             z-index: 1000;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             background: rgba(0, 0, 0, 0.95);
@@ -165,7 +165,7 @@
         }
 
         .navbar.scrolled {
-            padding: 15px 0;
+            padding: 20px 0; /* Aumentado para logo más grande */
             box-shadow: 0 5px 30px rgba(255, 0, 0, 0.3);
         }
 
@@ -175,9 +175,9 @@
             align-items: center;
         }
 
-        /* LOGO CON IMAGEN - MÁS GRANDE */
+        /* LOGO CON IMAGEN - MUCHO MÁS GRANDE */
         .logo {
-            height: 70px; /* Aumentado de 50px a 70px */
+            height: 100px; /* Aumentado significativamente de 70px a 100px */
             display: flex;
             align-items: center;
         }
@@ -926,10 +926,10 @@
             .nav-menu.active {
                 display: flex;
                 position: fixed;
-                top: 80px;
+                top: 100px; /* Aumentado para logo más grande */
                 left: 0;
                 width: 100%;
-                height: calc(100vh - 80px);
+                height: calc(100vh - 100px);
                 background: rgba(0, 0, 0, 0.98);
                 backdrop-filter: blur(20px);
                 flex-direction: column;
@@ -956,9 +956,9 @@
                 grid-template-columns: repeat(2, 1fr);
             }
             
-            /* Ajuste del logo en móviles */
+            /* Ajuste del logo en tablets */
             .logo {
-                height: 50px; /* Reducido ligeramente para móviles */
+                height: 70px; /* Reducido ligeramente para tablets */
             }
         }
 
@@ -1009,15 +1009,20 @@
                 display: none;
             }
             
-            /* Ajuste del logo en móviles más pequeños */
+            /* Ajuste del logo en móviles */
             .logo {
-                height: 45px;
+                height: 60px;
             }
         }
 
         @media (max-width: 576px) {
             .hero-title { font-size: 2.5rem; }
             .section-title { font-size: 2rem; }
+            
+            /* Ajuste del logo en móviles pequeños */
+            .logo {
+                height: 50px;
+            }
         }
     </style>
 </head>
@@ -1025,7 +1030,7 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <!-- LOGO COMO IMAGEN - MÁS GRANDE -->
+            <!-- LOGO COMO IMAGEN - MUCHO MÁS GRANDE -->
             <div class="logo">
                 <img src="static/img/logotipo.png" alt="BLACK STUDIO CROSSGYM">
             </div>
