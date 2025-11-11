@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="es" prefix="og: https://ogp.me/ns#">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan</title>
-    
+
     <!-- Meta Description para SEO -->
-    <meta name="description" content="BLACK STUDIO CROSSGYM - Entrenamiento personalizado en Zapopan. Clases grupales, entrenamiento personalizado, planes de alimentación y más. ¡Transforma tu vida!">
-    
+    <meta name="description"
+        content="BLACK STUDIO CROSSGYM - Entrenamiento personalizado en Zapopan. Clases grupales, entrenamiento personalizado, planes de alimentación y más. ¡Transforma tu vida!">
+
     <!-- Meta Keywords para SEO -->
-    <meta name="keywords" content="gimnasio zapopan, entrenamiento personalizado, crossfit, fitness, pérdida de peso, ganancia muscular, nutrición deportiva">
-    
+    <meta name="keywords"
+        content="gimnasio zapopan, entrenamiento personalizado, crossfit, fitness, pérdida de peso, ganancia muscular, nutrición deportiva">
+
     <!-- ========== META ETIQUETAS PARA VISTA PREVIA AL COMPARTIR ========== -->
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://blackstudiocrossgym.com/">
     <meta property="og:title" content="BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan">
-    <meta property="og:description" content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
+    <meta property="og:description"
+        content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
     <meta property="og:image" content="https://blackstudiocrossgym.com/static/img/logotipo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="es_MX">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://blackstudiocrossgym.com/">
     <meta property="twitter:title" content="BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan">
-    <meta property="twitter:description" content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
+    <meta property="twitter:description"
+        content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
     <meta property="twitter:image" content="https://blackstudiocrossgym.com/static/img/logotipo.png">
-    
+
     <!-- WhatsApp -->
     <meta property="og:site_name" content="BLACK STUDIO CROSSGYM">
-    
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon_io/favicon-32x32.png">
@@ -41,8 +46,10 @@
     <link rel="shortcut icon" href="static/img/favicon_io/favicon.ico" type="image/x-icon">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -83,6 +90,16 @@
             visibility: hidden;
         }
 
+        .preloader-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0 20px;
+            text-align: center;
+        }
+
         .preloader-logo {
             max-width: 300px;
             width: 80%;
@@ -116,10 +133,12 @@
                 transform: scale(1);
                 opacity: 1;
             }
+
             50% {
                 transform: scale(1.05);
                 opacity: 0.9;
             }
+
             100% {
                 transform: scale(1);
                 opacity: 1;
@@ -220,7 +239,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 25px 0; /* Aumentado para logo más grande */
+            padding: 25px 0;
+            /* Aumentado para logo más grande */
             z-index: 1000;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             background: rgba(0, 0, 0, 0.95);
@@ -228,7 +248,8 @@
         }
 
         .navbar.scrolled {
-            padding: 20px 0; /* Aumentado para logo más grande */
+            padding: 20px 0;
+            /* Aumentado para logo más grande */
             box-shadow: 0 5px 30px rgba(255, 0, 0, 0.3);
         }
 
@@ -240,7 +261,8 @@
 
         /* LOGO CON IMAGEN - MUCHO MÁS GRANDE */
         .logo {
-            height: 100px; /* Aumentado significativamente de 70px a 100px */
+            height: 100px;
+            /* Aumentado significativamente de 70px a 100px */
             display: flex;
             align-items: center;
         }
@@ -321,9 +343,9 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background: 
-                linear-gradient(135deg, rgba(0,0,0,0.85), rgba(255,0,0,0.3)),
-                 url('static/img/fondo.jpg');
+            background:
+                linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(255, 0, 0, 0.3)),
+                url('static/img/fondo.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -566,6 +588,45 @@
 
         .gallery-item:hover img {
             transform: scale(1.1);
+        }
+
+        /* Video Section */
+        .video-section {
+            background: var(--black);
+            padding: 80px 0;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .video-player {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(255, 0, 0, 0.3);
+            transition: all 0.4s ease;
+            background: var(--dark-gray);
+        }
+
+        .video-player:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 40px 80px rgba(255, 0, 0, 0.4);
+        }
+
+        .video-player video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-caption {
+            margin-top: 30px;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
         }
 
         /* Testimonials Section */
@@ -968,9 +1029,11 @@
             0% {
                 box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
             }
+
             70% {
                 box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
             }
+
             100% {
                 box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
             }
@@ -978,18 +1041,29 @@
 
         /* Responsive Styles */
         @media (max-width: 1200px) {
-            .hero-title { font-size: 5rem; }
-            .section-title { font-size: 3.5rem; }
+            .hero-title {
+                font-size: 5rem;
+            }
+
+            .section-title {
+                font-size: 3.5rem;
+            }
         }
 
         @media (max-width: 992px) {
-            .nav-menu { display: none; }
-            .menu-toggle { display: block; }
-            
+            .nav-menu {
+                display: none;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
             .nav-menu.active {
                 display: flex;
                 position: fixed;
-                top: 100px; /* Aumentado para logo más grande */
+                top: 100px;
+                /* Aumentado para logo más grande */
                 left: 0;
                 width: 100%;
                 height: calc(100vh - 100px);
@@ -1001,9 +1075,14 @@
                 padding: 50px;
             }
 
-            .hero-title { font-size: 4rem; }
-            .section-title { font-size: 3rem; }
-            
+            .hero-title {
+                font-size: 4rem;
+            }
+
+            .section-title {
+                font-size: 3rem;
+            }
+
             .about-content,
             .location-content,
             .schedule-content {
@@ -1018,19 +1097,31 @@
             .footer-content {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
+
             /* Ajuste del logo en tablets */
             .logo {
-                height: 70px; /* Reducido ligeramente para tablets */
+                height: 70px;
+                /* Reducido ligeramente para tablets */
             }
         }
 
         @media (max-width: 768px) {
-            section { padding: 80px 0; }
-            
-            .hero-content { padding: 0 20px; }
-            .hero-title { font-size: 3rem; }
-            .hero-subtitle { font-size: 1rem; }
+            section {
+                padding: 80px 0;
+            }
+
+            .hero-content {
+                padding: 0 20px;
+            }
+
+            .hero-title {
+                font-size: 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
             .hero-buttons {
                 flex-direction: column;
                 width: 100%;
@@ -1041,8 +1132,10 @@
                 text-align: center;
             }
 
-            .section-title { font-size: 2.5rem; }
-            
+            .section-title {
+                font-size: 2.5rem;
+            }
+
             .about-stats {
                 grid-template-columns: 1fr;
             }
@@ -1071,24 +1164,44 @@
             .whatsapp-tooltip {
                 display: none;
             }
-            
+
             /* Ajuste del logo en móviles */
             .logo {
                 height: 60px;
             }
+
+            /* Ajuste del preloader para móviles */
+            .preloader-content {
+                padding: 0 15px;
+            }
+
+            .preloader-logo {
+                max-width: 250px;
+            }
         }
 
         @media (max-width: 576px) {
-            .hero-title { font-size: 2.5rem; }
-            .section-title { font-size: 2rem; }
-            
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
             /* Ajuste del logo en móviles pequeños */
             .logo {
                 height: 50px;
             }
+
+            /* Ajuste del preloader para móviles pequeños */
+            .preloader-logo {
+                max-width: 200px;
+            }
         }
     </style>
 </head>
+
 <body>
     <!-- Preloader -->
     <div class="preloader" id="preloader">
@@ -1115,6 +1228,7 @@
                 <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
                 <li><a href="#servicios" class="nav-link">Servicios</a></li>
                 <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
                 <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
                 <li><a href="#horarios" class="nav-link">Horarios</a></li>
                 <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
@@ -1134,7 +1248,8 @@
                 <span class="highlight">CROSSGYM</span>
             </h1>
             <p class="hero-subtitle">
-                Lo más importante para nosotros no solo es entrenarte, es forjarte en aquello que no has logrado disciplinarte.
+                Lo más importante para nosotros no solo es entrenarte, es forjarte en aquello que no has logrado
+                disciplinarte.
             </p>
             <div class="hero-buttons">
                 <a href="#contacto" class="btn btn-primary">Reserva tu clase demo ahora</a>
@@ -1150,7 +1265,8 @@
                 <span class="section-label">/// QUIÉNES SOMOS</span>
                 <h2 class="section-title">ESTUDIO PERSONALIZADO</h2>
                 <p class="section-description">
-                    Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Pioneros en biomecánica articular/muscular con entrenamiento adaptativo y seguimiento progresivo.
+                    Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Pioneros en
+                    biomecánica articular/muscular con entrenamiento adaptativo y seguimiento progresivo.
                 </p>
             </div>
 
@@ -1158,15 +1274,20 @@
                 <div class="about-text">
                     <h3>Tu Transformación Comienza Aquí</h3>
                     <p>
-                        En BLACK STUDIO CROSSGYM, fusionamos metodologías de entrenamiento probadas con tecnología de última generación para ofrecerte resultados extraordinarios. Cada programa está diseñado científicamente para maximizar tu potencial.
+                        En BLACK STUDIO CROSSGYM, fusionamos metodologías de entrenamiento probadas con tecnología de
+                        última generación para ofrecerte resultados extraordinarios. Cada programa está diseñado
+                        científicamente para maximizar tu potencial.
                     </p>
                     <p>
-                        Nuestro equipo de entrenadores certificados cuenta con años de experiencia y está comprometido con tu éxito. Ya sea que busques pérdida de peso, ganancia muscular, o preparación para competencias, te guiaremos en cada paso del camino.
+                        Nuestro equipo de entrenadores certificados cuenta con años de experiencia y está comprometido
+                        con tu éxito. Ya sea que busques pérdida de peso, ganancia muscular, o preparación para
+                        competencias, te guiaremos en cada paso del camino.
                     </p>
                     <p>
-                        Ubicados en el corazón de Zapopan, Jalisco, nuestras instalaciones cuentan con equipamiento profesional, espacios amplios y un ambiente que te motivará a superar todos tus límites.
+                        Ubicados en el corazón de Zapopan, Jalisco, nuestras instalaciones cuentan con equipamiento
+                        profesional, espacios amplios y un ambiente que te motivará a superar todos tus límites.
                     </p>
-                    
+
                     <div class="about-stats">
                         <div class="stat-item">
                             <span class="stat-number">11+</span>
@@ -1206,7 +1327,8 @@
                     <i class="fas fa-users service-icon"></i>
                     <h3 class="service-title">Clases Grupales</h3>
                     <p class="service-description">
-                        Entrenamiento de fuerza/endurance para intermedios-avanzados. Sesiones de 1 hora con grupos reducidos para máxima atención personalizada.
+                        Entrenamiento de fuerza/endurance para intermedios-avanzados. Sesiones de 1 hora con grupos
+                        reducidos para máxima atención personalizada.
                     </p>
                 </div>
 
@@ -1214,7 +1336,8 @@
                     <i class="fas fa-user service-icon"></i>
                     <h3 class="service-title">Entrenamientos Personalizados</h3>
                     <p class="service-description">
-                        Para aquellos que buscan una meta/objetivo específico o requieren un entrenamiento con características específicas adaptadas a sus necesidades.
+                        Para aquellos que buscan una meta/objetivo específico o requieren un entrenamiento con
+                        características específicas adaptadas a sus necesidades.
                     </p>
                 </div>
 
@@ -1222,7 +1345,8 @@
                     <i class="fas fa-sync service-icon"></i>
                     <h3 class="service-title">Entrenamientos Adaptativos</h3>
                     <p class="service-description">
-                        Para principiantes o personas que nunca han hecho actividad física. Adaptación controlada y progresiva al mundo deportivo.
+                        Para principiantes o personas que nunca han hecho actividad física. Adaptación controlada y
+                        progresiva al mundo deportivo.
                     </p>
                 </div>
 
@@ -1230,7 +1354,8 @@
                     <i class="fas fa-apple-alt service-icon"></i>
                     <h3 class="service-title">Planes de Alimentación</h3>
                     <p class="service-description">
-                        Planes de alimentación deportivos con equivalentes y menú funcional. Suplementación inteligente por etapas y objetivos específicos.
+                        Planes de alimentación deportivos con equivalentes y menú funcional. Suplementación inteligente
+                        por etapas y objetivos específicos.
                     </p>
                 </div>
 
@@ -1238,7 +1363,8 @@
                     <i class="fas fa-weight service-icon"></i>
                     <h3 class="service-title">Valoraciones Corporales</h3>
                     <p class="service-description">
-                        Valoración con báscula de bioimpedancia para estimar composición corporal: porcentaje de grasa, masa muscular, agua corporal y metabolismo basal.
+                        Valoración con báscula de bioimpedancia para estimar composición corporal: porcentaje de grasa,
+                        masa muscular, agua corporal y metabolismo basal.
                     </p>
                 </div>
 
@@ -1246,7 +1372,8 @@
                     <i class="fas fa-store service-icon"></i>
                     <h3 class="service-title">Tienda Especializada</h3>
                     <p class="service-description">
-                        Suplementos deportivos premium, hidratación deportiva, snacks fit y accesorios de entrenamiento de la más alta calidad.
+                        Suplementos deportivos premium, hidratación deportiva, snacks fit y accesorios de entrenamiento
+                        de la más alta calidad.
                     </p>
                 </div>
             </div>
@@ -1287,6 +1414,32 @@
         </div>
     </section>
 
+    <!-- Video Section -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">/// EN ACCIÓN</span>
+                <h2 class="section-title">ENTRENA CON NOSOTROS</h2>
+                <p class="section-description">
+                    Mira cómo transformamos vidas en BLACK STUDIO CROSSGYM
+                </p>
+            </div>
+
+            <div class="video-container">
+                <div class="video-player">
+                    <video controls autoplay muted loop playsinline>
+                        <source src="static/img/videoportada.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento video.
+                    </video>
+                </div>
+                <p class="video-caption">
+                    Descubre la experiencia única de entrenamiento en BLACK STUDIO CROSSGYM.
+                    Nuestro método combina fuerza, técnica y dedicación para lograr resultados extraordinarios.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- Testimonials Section -->
     <section class="testimonials" id="testimonios">
         <div class="container">
@@ -1301,7 +1454,8 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        Excelente lugar para entrenar, los entrenadores son muy profesionales y el ambiente es increíble. He logrado resultados que nunca pensé posibles.
+                        Excelente lugar para entrenar, los entrenadores son muy profesionales y el ambiente es
+                        increíble. He logrado resultados que nunca pensé posibles.
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">M</div>
@@ -1314,7 +1468,8 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        El entrenamiento personalizado ha cambiado completamente mi forma de ver el ejercicio. Los resultados son evidentes y el seguimiento es constante.
+                        El entrenamiento personalizado ha cambiado completamente mi forma de ver el ejercicio. Los
+                        resultados son evidentes y el seguimiento es constante.
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">C</div>
@@ -1327,7 +1482,8 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        Como principiante, me sentí muy cómodo desde el primer día. Los entrenamientos adaptativos me han permitido progresar a mi ritmo sin lesiones.
+                        Como principiante, me sentí muy cómodo desde el primer día. Los entrenamientos adaptativos me
+                        han permitido progresar a mi ritmo sin lesiones.
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">A</div>
@@ -1422,14 +1578,18 @@
                         <div class="info-text">
                             <h4>Atención</h4>
                             <p>Lunes a Viernes: 6:00 AM - 11:00 AM / 5:00 PM - 10:00 PM<br>
-                            Sábados: 7:00 AM - 2:00 PM<br>
-                            Domingos: Cerrado</p>
+                                Sábados: 7:00 AM - 2:00 PM<br>
+                                Domingos: Cerrado</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="location-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.962446043691!2d-103.3918134242953!3d20.673780980888937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae3a95d945a5%3A0x538aa8c6dcf8c6e1!2sZapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1690832232642!5m2!1ses!2smx" allowfullscreen="" loading="lazy"></iframe>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d444.00147597243034!2d-103.43227625316652!3d20.633629347617287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2smx!4v1762827792431!5m2!1ses-419!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -1442,29 +1602,32 @@
                 <span class="section-label">/// CONTÁCTANOS</span>
                 <h2 class="section-title">COMIENZA TU TRANSFORMACIÓN</h2>
                 <p class="section-description">
-                    Déjanos tus datos y uno de nuestros coaches se pondrá en contacto contigo para una sesión de prueba gratuita.
+                    Déjanos tus datos y uno de nuestros coaches se pondrá en contacto contigo para una sesión de prueba
+                    gratuita.
                 </p>
             </div>
 
-            <form class="contact-form" id="contactForm">
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xblqjogr" method="POST">
                 <div class="form-group">
                     <label for="name">Nombre Completo</label>
-                    <input type="text" id="name" class="form-control" placeholder="Tu nombre" required>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Tu nombre" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" class="form-control" placeholder="tu@email.com" required>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="tu@email.com"
+                        required>
                 </div>
 
                 <div class="form-group">
                     <label for="phone">Teléfono</label>
-                    <input type="tel" id="phone" class="form-control" placeholder="+52 33 1234 5678" required>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="+52 33 1234 5678"
+                        required>
                 </div>
 
                 <div class="form-group">
                     <label for="service">¿Qué servicio/producto te interesa más?</label>
-                    <select id="service" class="form-control" required>
+                    <select id="service" name="service" class="form-control" required>
                         <option value="" disabled selected>Selecciona una opción</option>
                         <option value="clases-grupales">Clases Grupales</option>
                         <option value="entrenamiento-personalizado">Entrenamiento Personalizado</option>
@@ -1478,7 +1641,8 @@
 
                 <div class="form-group">
                     <label for="message">Mensaje</label>
-                    <textarea id="message" class="form-control" placeholder="Cuéntanos sobre tus objetivos..." required></textarea>
+                    <textarea id="message" name="message" class="form-control"
+                        placeholder="Cuéntanos sobre tus objetivos..." required></textarea>
                 </div>
 
                 <button type="submit" class="form-button">Enviar Mensaje</button>
@@ -1493,11 +1657,14 @@
                 <div class="footer-column">
                     <h3>BLACK STUDIO</h3>
                     <p>
-                        El gimnasio más avanzado de Zapopan, Jalisco. Transformamos vidas a través del fitness inteligente y la dedicación incansable.
+                        El STUDIO con amplia experiencia de Zapopan, Jalisco. Transformamos vidas a través del fitness
+                        inteligente y la dedicación incansable.
                     </p>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/blackstudio_training/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/blackstudiotraining" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/blackstudio_training/" class="social-link" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/blackstudiotraining" class="social-link" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
@@ -1509,6 +1676,7 @@
                         <li><a href="#nosotros">Nosotros</a></li>
                         <li><a href="#servicios">Servicios</a></li>
                         <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#video">Video</a></li>
                         <li><a href="#testimonios">Testimonios</a></li>
                     </ul>
                 </div>
@@ -1551,7 +1719,7 @@
         window.addEventListener('load', () => {
             const preloader = document.getElementById('preloader');
             const loadingProgress = document.getElementById('loadingProgress');
-            
+
             // Simulate loading progress
             let progress = 0;
             const interval = setInterval(() => {
@@ -1559,18 +1727,18 @@
                 if (progress >= 100) {
                     progress = 100;
                     clearInterval(interval);
-                    
+
                     // Hide preloader after a short delay
                     setTimeout(() => {
                         preloader.classList.add('fade-out');
-                        
+
                         // Remove preloader from DOM after animation
                         setTimeout(() => {
                             preloader.style.display = 'none';
                         }, 500);
                     }, 300);
                 }
-                
+
                 loadingProgress.style.width = `${progress}%`;
             }, 150);
         });
@@ -1613,7 +1781,7 @@
 
         // Smooth Scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -1626,20 +1794,43 @@
         });
 
         // Form Submission
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        // Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
-            
-            // Simple validation
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-            const service = document.getElementById('service').value;
-            const message = document.getElementById('message').value;
 
-            if (name && email && phone && service && message) {
-                alert('¡Gracias por tu mensaje! 💪\n\nNos pondremos en contacto contigo muy pronto para agendar tu sesión de prueba gratuita.');
-                this.reset();
-            }
+            const form = this;
+            const submitButton = form.querySelector('.form-button');
+            const originalText = submitButton.textContent;
+
+            // Mostrar estado de carga
+            submitButton.textContent = 'Enviando...';
+            submitButton.disabled = true;
+
+            // Enviar formulario
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('¡Gracias por tu mensaje! 💪\n\nNos pondremos en contacto contigo muy pronto para agendar tu sesión de prueba gratuita.');
+                        form.reset();
+                    } else {
+                        throw new Error('Error en el envío');
+                    }
+                })
+                .catch(error => {
+                    alert('Ocurrió un error al enviar el mensaje. Por favor, intenta de nuevo o contáctanos directamente por WhatsApp.');
+                    console.error('Error:', error);
+                })
+                .finally(() => {
+                    // Restaurar botón
+                    submitButton.textContent = originalText;
+                    submitButton.disabled = false;
+                });
         });
 
         // Counter Animation
@@ -1671,7 +1862,7 @@
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '1';
                     entry.target.style.transform = 'translateY(0)';
-                    
+
                     // Animate stats if it's a stat item
                     if (entry.target.classList.contains('stat-item')) {
                         const number = entry.target.querySelector('.stat-number');
@@ -1682,7 +1873,7 @@
         }, observerOptions);
 
         // Observe elements for animation
-        document.querySelectorAll('.service-card, .gallery-item, .testimonial-card, .stat-item, .info-item').forEach(el => {
+        document.querySelectorAll('.service-card, .gallery-item, .testimonial-card, .stat-item, .info-item, .video-player').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'all 0.6s ease-out';
@@ -1690,4 +1881,5 @@
         });
     </script>
 </body>
+
 </html>
