@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="es" prefix="og: https://ogp.me/ns#">
-
 <head>
+    <link rel="canonical" href="https://www.blackstudiotrainig.com/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan</title>
-
     <!-- Meta Description para SEO -->
     <meta name="description"
         content="BLACK STUDIO CROSSGYM - Entrenamiento personalizado en Zapopan. Clases grupales, entrenamiento personalizado, planes de alimentación y más. ¡Transforma tu vida!">
-
-    <!-- Meta Keywords para SEO -->
-    <meta name="keywords"
-        content="gimnasio zapopan, entrenamiento personalizado, crossfit, fitness, pérdida de peso, ganancia muscular, nutrición deportiva">
-
     <!-- ========== META ETIQUETAS PARA VISTA PREVIA AL COMPARTIR ========== -->
-
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://blackstudiocrossgym.com/">
     <meta property="og:title" content="BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan">
     <meta property="og:description"
         content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
-    <meta property="og:image" content="https://blackstudiocrossgym.com/static/img/logotipo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="es_MX">
-
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://blackstudiocrossgym.com/">
     <meta property="twitter:title" content="BLACK STUDIO CROSSGYM | Entrenamiento Personalizado en Zapopan">
     <meta property="twitter:description"
         content="Especialistas en entrenamientos de fuerza, estética, funcionalidad y psicomotricidad. Más de 11 años de experiencia transformando vidas.">
-    <meta property="twitter:image" content="https://blackstudiocrossgym.com/static/img/logotipo.png">
-
     <!-- WhatsApp -->
     <meta property="og:site_name" content="BLACK STUDIO CROSSGYM">
-
+    <meta property="og:url" content="https://www.blackstudiotrainig.com/">
+    <meta property="og:image" content="https://www.blackstudiotrainig.com/static/img/logotipo.png">
+    <meta property="twitter:url" content="https://www.blackstudiotrainig.com/">
+    <meta property="twitter:image" content="https://www.blackstudiotrainig.com/static/img/logotipo.png">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon_io/favicon-32x32.png">
@@ -46,7 +36,6 @@
     <link rel="shortcut icon" href="static/img/favicon_io/favicon.ico" type="image/x-icon">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&display=swap"
         rel="stylesheet">
@@ -63,13 +52,11 @@
             --whatsapp-green: #25D366;
             --whatsapp-dark: #128C7E;
         }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         /* ========== PRELOADER ========== */
         .preloader {
             position: fixed;
@@ -84,12 +71,10 @@
             z-index: 9999;
             transition: opacity 0.5s ease, visibility 0.5s ease;
         }
-
         .preloader.fade-out {
             opacity: 0;
             visibility: hidden;
         }
-
         .preloader-content {
             display: flex;
             flex-direction: column;
@@ -99,14 +84,12 @@
             padding: 0 20px;
             text-align: center;
         }
-
         .preloader-logo {
             max-width: 300px;
             width: 80%;
             height: auto;
             animation: pulse 2s infinite;
         }
-
         .loading-bar {
             width: 200px;
             height: 4px;
@@ -116,7 +99,6 @@
             overflow: hidden;
             position: relative;
         }
-
         .loading-progress {
             position: absolute;
             top: 0;
@@ -127,24 +109,20 @@
             border-radius: 2px;
             transition: width 0.3s ease;
         }
-
         @keyframes pulse {
             0% {
                 transform: scale(1);
                 opacity: 1;
             }
-
             50% {
                 transform: scale(1.05);
                 opacity: 0.9;
             }
-
             100% {
                 transform: scale(1);
                 opacity: 1;
             }
         }
-
         body {
             font-family: 'Poppins', sans-serif;
             background: var(--black);
@@ -152,24 +130,20 @@
             overflow-x: hidden;
             line-height: 1.6;
         }
-
         /* Estilos generales */
         .container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 20px;
         }
-
         section {
             padding: 100px 0;
         }
-
         .section-header {
             text-align: center;
             max-width: 800px;
             margin: 0 auto 80px;
         }
-
         .section-label {
             color: var(--primary-red);
             font-size: 0.9rem;
@@ -179,7 +153,6 @@
             margin-bottom: 20px;
             display: block;
         }
-
         .section-title {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 4rem;
@@ -187,13 +160,11 @@
             margin-bottom: 25px;
             line-height: 1;
         }
-
         .section-description {
             font-size: 1.1rem;
             color: rgba(255, 255, 255, 0.7);
             line-height: 1.8;
         }
-
         .btn {
             padding: 18px 45px;
             font-size: 1rem;
@@ -209,30 +180,25 @@
             cursor: pointer;
             border: none;
         }
-
         .btn-primary {
             background: linear-gradient(135deg, var(--primary-red), var(--dark-red));
             color: #fff;
             box-shadow: 0 10px 40px rgba(255, 0, 0, 0.4);
         }
-
         .btn-primary:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 50px rgba(255, 0, 0, 0.6);
         }
-
         .btn-secondary {
             background: transparent;
             color: #fff;
             border: 2px solid #fff;
         }
-
         .btn-secondary:hover {
             background: #fff;
             color: var(--black);
             transform: translateY(-5px);
         }
-
         /* Navbar */
         .navbar {
             position: fixed;
@@ -240,50 +206,39 @@
             left: 0;
             width: 100%;
             padding: 25px 0;
-            /* Aumentado para logo más grande */
             z-index: 1000;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             background: rgba(0, 0, 0, 0.95);
             backdrop-filter: blur(20px);
         }
-
         .navbar.scrolled {
             padding: 20px 0;
-            /* Aumentado para logo más grande */
             box-shadow: 0 5px 30px rgba(255, 0, 0, 0.3);
         }
-
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
-        /* LOGO CON IMAGEN - MUCHO MÁS GRANDE */
         .logo {
             height: 100px;
-            /* Aumentado significativamente de 70px a 100px */
             display: flex;
             align-items: center;
         }
-
         .logo img {
             height: 100%;
             width: auto;
             transition: transform 0.3s ease;
         }
-
         .logo:hover img {
             transform: scale(1.05);
         }
-
         .nav-menu {
             display: flex;
             gap: 40px;
             list-style: none;
             align-items: center;
         }
-
         .nav-link {
             color: #fff;
             text-decoration: none;
@@ -293,7 +248,6 @@
             position: relative;
             transition: color 0.3s ease;
         }
-
         .nav-link::before {
             content: '';
             position: absolute;
@@ -304,11 +258,9 @@
             background: var(--primary-red);
             transition: width 0.3s ease;
         }
-
         .nav-link:hover::before {
             width: 100%;
         }
-
         .nav-cta {
             padding: 12px 30px;
             background: linear-gradient(135deg, var(--primary-red), var(--dark-red));
@@ -317,12 +269,10 @@
             transition: all 0.3s ease;
             box-shadow: 0 5px 20px rgba(255, 0, 0, 0.4);
         }
-
         .nav-cta:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 30px rgba(255, 0, 0, 0.6);
         }
-
         .menu-toggle {
             display: none;
             font-size: 1.8rem;
@@ -330,11 +280,9 @@
             cursor: pointer;
             transition: transform 0.3s ease;
         }
-
         .menu-toggle:hover {
             transform: rotate(90deg);
         }
-
         /* Hero Section */
         .hero {
             position: relative;
@@ -350,7 +298,6 @@
             background-position: center;
             background-attachment: fixed;
         }
-
         .hero-content {
             position: relative;
             z-index: 10;
@@ -358,7 +305,6 @@
             max-width: 1200px;
             padding: 0 20px;
         }
-
         .hero-badge {
             display: inline-block;
             padding: 12px 30px;
@@ -371,7 +317,6 @@
             margin-bottom: 30px;
             backdrop-filter: blur(10px);
         }
-
         .hero-title {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 7rem;
@@ -380,14 +325,12 @@
             margin-bottom: 20px;
             text-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
         }
-
         .hero-title .highlight {
             background: linear-gradient(135deg, var(--primary-red), var(--white));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             display: block;
         }
-
         .hero-subtitle {
             font-size: 1.3rem;
             font-weight: 300;
@@ -397,25 +340,21 @@
             margin-left: auto;
             margin-right: auto;
         }
-
         .hero-buttons {
             display: flex;
             gap: 20px;
             justify-content: center;
         }
-
         /* About Section */
         .about {
             background: var(--dark-gray);
         }
-
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 80px;
             align-items: center;
         }
-
         .about-text h3 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 2.5rem;
@@ -423,21 +362,18 @@
             margin-bottom: 25px;
             color: var(--primary-red);
         }
-
         .about-text p {
             font-size: 1.05rem;
             line-height: 1.9;
             margin-bottom: 20px;
             color: rgba(255, 255, 255, 0.8);
         }
-
         .about-stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 30px;
             margin-top: 40px;
         }
-
         .stat-item {
             text-align: center;
             padding: 30px;
@@ -446,13 +382,11 @@
             border: 1px solid rgba(255, 0, 0, 0.2);
             transition: all 0.3s ease;
         }
-
         .stat-item:hover {
             transform: translateY(-10px);
             border-color: var(--primary-red);
             box-shadow: 0 20px 40px rgba(255, 0, 0, 0.3);
         }
-
         .stat-number {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 3.5rem;
@@ -460,43 +394,36 @@
             display: block;
             margin-bottom: 10px;
         }
-
         .stat-label {
             font-size: 0.9rem;
             letter-spacing: 1px;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.6);
         }
-
         .about-image {
             position: relative;
             border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
-
         .about-image img {
             width: 100%;
             height: 600px;
             object-fit: cover;
             transition: transform 0.6s ease;
         }
-
         .about-image:hover img {
             transform: scale(1.1);
         }
-
         /* Services Section */
         .services {
             background: var(--black);
         }
-
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 40px;
         }
-
         .service-card {
             background: linear-gradient(135deg, var(--medium-gray), var(--dark-gray));
             padding: 50px 40px;
@@ -507,7 +434,6 @@
             transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             cursor: pointer;
         }
-
         .service-card::before {
             content: '';
             position: absolute;
@@ -518,17 +444,14 @@
             background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.1), transparent);
             transition: left 0.6s ease;
         }
-
         .service-card:hover::before {
             left: 100%;
         }
-
         .service-card:hover {
             transform: translateY(-15px);
             border-color: var(--primary-red);
             box-shadow: 0 30px 60px rgba(255, 0, 0, 0.3);
         }
-
         .service-icon {
             font-size: 3.5rem;
             margin-bottom: 25px;
@@ -536,11 +459,9 @@
             color: var(--primary-red);
             transition: transform 0.3s ease;
         }
-
         .service-card:hover .service-icon {
             transform: scale(1.2) rotate(5deg);
         }
-
         .service-title {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 1.8rem;
@@ -548,24 +469,20 @@
             margin-bottom: 20px;
             color: #fff;
         }
-
         .service-description {
             color: rgba(255, 255, 255, 0.7);
             line-height: 1.8;
             font-size: 1rem;
         }
-
         /* Gallery Section */
         .gallery {
             background: var(--dark-gray);
         }
-
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
         }
-
         .gallery-item {
             position: relative;
             border-radius: 15px;
@@ -573,73 +490,61 @@
             height: 300px;
             transition: all 0.3s ease;
         }
-
         .gallery-item:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(255, 0, 0, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
-
         .gallery-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.6s ease;
         }
-
         .gallery-item:hover img {
             transform: scale(1.1);
         }
-
         /* Video Section */
         .video-section {
             background: var(--black);
             padding: 80px 0;
         }
-
         .video-container {
             max-width: 800px;
             margin: 0 auto;
             text-align: center;
         }
-
         .video-player {
             width: 100%;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 30px 60px rgba(255, 0, 0, 0.3);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
             transition: all 0.4s ease;
             background: var(--dark-gray);
         }
-
         .video-player:hover {
             transform: translateY(-10px);
-            box-shadow: 0 40px 80px rgba(255, 0, 0, 0.4);
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4);
         }
-
         .video-player video {
             width: 100%;
             height: auto;
             display: block;
         }
-
         .video-caption {
             margin-top: 30px;
             font-size: 1.1rem;
             color: rgba(255, 255, 255, 0.7);
             line-height: 1.7;
         }
-
         /* Testimonials Section */
         .testimonials {
             background: var(--black);
         }
-
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
         }
-
         .testimonial-card {
             background: var(--medium-gray);
             padding: 40px 30px;
@@ -647,12 +552,10 @@
             border: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
         }
-
         .testimonial-card:hover {
             border-color: var(--primary-red);
             box-shadow: 0 20px 40px rgba(255, 0, 0, 0.3);
         }
-
         .testimonial-text {
             font-style: italic;
             color: rgba(255, 255, 255, 0.8);
@@ -660,7 +563,6 @@
             margin-bottom: 25px;
             position: relative;
         }
-
         .testimonial-text::before {
             content: '"';
             font-size: 4rem;
@@ -670,13 +572,11 @@
             left: -10px;
             opacity: 0.5;
         }
-
         .testimonial-author {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-
         .author-avatar {
             width: 50px;
             height: 50px;
@@ -688,31 +588,26 @@
             color: white;
             font-weight: bold;
         }
-
         .author-info h4 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 1.3rem;
             letter-spacing: 1px;
             margin-bottom: 5px;
         }
-
         .author-info p {
             color: rgba(255, 255, 255, 0.6);
             font-size: 0.9rem;
         }
-
         /* Schedule Section */
         .schedule {
             background: var(--dark-gray);
         }
-
         .schedule-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
             align-items: start;
         }
-
         .schedule-card {
             background: var(--medium-gray);
             padding: 50px 40px;
@@ -720,12 +615,10 @@
             border: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
         }
-
         .schedule-card:hover {
             border-color: var(--primary-red);
             box-shadow: 0 20px 40px rgba(255, 0, 0, 0.3);
         }
-
         .schedule-card h3 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 2rem;
@@ -734,7 +627,6 @@
             margin-bottom: 30px;
             text-align: center;
         }
-
         .time-slot {
             display: flex;
             justify-content: space-between;
@@ -742,37 +634,30 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             font-size: 1.05rem;
         }
-
         .time-slot:last-child {
             border-bottom: none;
         }
-
         .time-slot span:first-child {
             font-weight: 600;
         }
-
         .time-slot span:last-child {
             color: rgba(255, 255, 255, 0.7);
         }
-
         /* Location Section */
         .location {
             background: var(--black);
         }
-
         .location-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
             align-items: center;
         }
-
         .location-info {
             display: flex;
             flex-direction: column;
             gap: 30px;
         }
-
         .info-item {
             display: flex;
             align-items: flex-start;
@@ -783,50 +668,42 @@
             border: 1px solid rgba(255, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
-
         .info-item:hover {
             border-color: var(--primary-red);
             transform: translateX(10px);
         }
-
         .info-icon {
             font-size: 2rem;
             color: var(--primary-red);
             min-width: 50px;
             text-align: center;
         }
-
         .info-text h4 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 1.3rem;
             letter-spacing: 1px;
             margin-bottom: 8px;
         }
-
         .info-text p {
             color: rgba(255, 255, 255, 0.7);
             line-height: 1.7;
         }
-
         .location-map {
             height: 500px;
             border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
-
         .location-map iframe {
             width: 100%;
             height: 100%;
             border: none;
             filter: grayscale(0.8) contrast(1.2);
         }
-
         /* Contact Section */
         .contact {
             background: var(--dark-gray);
         }
-
         .contact-form {
             max-width: 700px;
             margin: 0 auto;
@@ -836,11 +713,9 @@
             border: 1px solid rgba(255, 0, 0, 0.2);
             box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
-
         .form-group {
             margin-bottom: 30px;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 12px;
@@ -848,7 +723,6 @@
             letter-spacing: 1px;
             font-size: 0.95rem;
         }
-
         .form-control {
             width: 100%;
             padding: 15px 20px;
@@ -860,18 +734,15 @@
             font-family: 'Poppins', sans-serif;
             transition: all 0.3s ease;
         }
-
         .form-control:focus {
             border-color: var(--primary-red);
             outline: none;
             box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
         }
-
         textarea.form-control {
             min-height: 150px;
             resize: vertical;
         }
-
         .form-button {
             width: 100%;
             padding: 18px;
@@ -887,26 +758,22 @@
             transition: all 0.3s ease;
             box-shadow: 0 10px 30px rgba(255, 0, 0, 0.4);
         }
-
         .form-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 40px rgba(255, 0, 0, 0.6);
         }
-
         /* Footer */
         footer {
             background: var(--black);
             padding: 80px 0 30px;
             border-top: 1px solid rgba(255, 0, 0, 0.2);
         }
-
         .footer-content {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 1fr;
             gap: 60px;
             margin-bottom: 50px;
         }
-
         .footer-column h3 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 1.8rem;
@@ -914,18 +781,15 @@
             margin-bottom: 25px;
             color: var(--primary-red);
         }
-
         .footer-column p {
             color: rgba(255, 255, 255, 0.6);
             line-height: 1.8;
             margin-bottom: 25px;
         }
-
         .social-links {
             display: flex;
             gap: 15px;
         }
-
         .social-link {
             width: 45px;
             height: 45px;
@@ -939,32 +803,26 @@
             transition: all 0.3s ease;
             font-size: 1.2rem;
         }
-
         .social-link:hover {
             background: var(--primary-red);
             transform: translateY(-5px);
         }
-
         .footer-links {
             list-style: none;
         }
-
         .footer-links li {
             margin-bottom: 15px;
         }
-
         .footer-links a {
             color: rgba(255, 255, 255, 0.6);
             text-decoration: none;
             transition: all 0.3s ease;
             display: inline-block;
         }
-
         .footer-links a:hover {
             color: var(--primary-red);
             transform: translateX(5px);
         }
-
         .copyright {
             text-align: center;
             padding-top: 40px;
@@ -972,7 +830,6 @@
             color: rgba(255, 255, 255, 0.4);
             font-size: 0.95rem;
         }
-
         /* WhatsApp Floating Button */
         .whatsapp-float {
             position: fixed;
@@ -994,13 +851,11 @@
             animation: pulse-whatsapp 2s infinite;
             text-decoration: none;
         }
-
         .whatsapp-float:hover {
             background-color: var(--whatsapp-dark);
             transform: scale(1.1) translateY(-5px);
             box-shadow: 0 15px 35px rgba(37, 211, 102, 0.7);
         }
-
         .whatsapp-tooltip {
             position: absolute;
             right: 70px;
@@ -1019,51 +874,41 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
-
         .whatsapp-float:hover .whatsapp-tooltip {
             opacity: 1;
             right: 75px;
         }
-
         @keyframes pulse-whatsapp {
             0% {
                 box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
             }
-
             70% {
                 box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
             }
-
             100% {
                 box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
             }
         }
-
         /* Responsive Styles */
         @media (max-width: 1200px) {
             .hero-title {
                 font-size: 5rem;
             }
-
             .section-title {
                 font-size: 3.5rem;
             }
         }
-
         @media (max-width: 992px) {
             .nav-menu {
                 display: none;
             }
-
             .menu-toggle {
                 display: block;
             }
-
             .nav-menu.active {
                 display: flex;
                 position: fixed;
                 top: 100px;
-                /* Aumentado para logo más grande */
                 left: 0;
                 width: 100%;
                 height: calc(100vh - 100px);
@@ -1074,85 +919,65 @@
                 gap: 30px;
                 padding: 50px;
             }
-
             .hero-title {
                 font-size: 4rem;
             }
-
             .section-title {
                 font-size: 3rem;
             }
-
             .about-content,
             .location-content,
             .schedule-content {
                 grid-template-columns: 1fr;
                 gap: 50px;
             }
-
             .about-stats {
                 grid-template-columns: repeat(2, 1fr);
             }
-
             .footer-content {
                 grid-template-columns: repeat(2, 1fr);
             }
-
-            /* Ajuste del logo en tablets */
             .logo {
                 height: 70px;
-                /* Reducido ligeramente para tablets */
             }
         }
-
         @media (max-width: 768px) {
             section {
                 padding: 80px 0;
             }
-
             .hero-content {
                 padding: 0 20px;
             }
-
             .hero-title {
                 font-size: 3rem;
             }
-
             .hero-subtitle {
                 font-size: 1rem;
             }
-
             .hero-buttons {
                 flex-direction: column;
                 width: 100%;
             }
-
             .btn {
                 width: 100%;
                 text-align: center;
             }
-
             .section-title {
                 font-size: 2.5rem;
             }
-
             .about-stats {
                 grid-template-columns: 1fr;
             }
-
             .services-grid,
             .schedule-grid {
                 grid-template-columns: 1fr;
             }
-
             .footer-content {
                 grid-template-columns: 1fr;
             }
-
             .contact-form {
                 padding: 40px 30px;
             }
-
             .whatsapp-float {
                 width: 55px;
                 height: 55px;
@@ -1160,65 +985,50 @@
                 right: 20px;
                 font-size: 28px;
             }
-
             .whatsapp-tooltip {
                 display: none;
             }
-
-            /* Ajuste del logo en móviles */
             .logo {
                 height: 60px;
             }
-
-            /* Ajuste del preloader para móviles */
             .preloader-content {
                 padding: 0 15px;
             }
-
             .preloader-logo {
                 max-width: 250px;
             }
         }
-
         @media (max-width: 576px) {
             .hero-title {
                 font-size: 2.5rem;
             }
-
             .section-title {
                 font-size: 2rem;
             }
-
-            /* Ajuste del logo en móviles pequeños */
             .logo {
                 height: 50px;
             }
-
-            /* Ajuste del preloader para móviles pequeños */
             .preloader-logo {
                 max-width: 200px;
             }
         }
     </style>
 </head>
-
 <body>
     <!-- Preloader -->
     <div class="preloader" id="preloader">
         <div class="preloader-content">
-            <img src="static/img/logotipo.png" alt="BLACK STUDIO CROSSGYM" class="preloader-logo">
+            <img src="static/img/logotipo.png" alt="Logo BLACK STUDIO CROSSGYM" class="preloader-logo">
             <div class="loading-bar">
                 <div class="loading-progress" id="loadingProgress"></div>
             </div>
         </div>
     </div>
-
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <!-- LOGO COMO IMAGEN - MUCHO MÁS GRANDE -->
             <div class="logo">
-                <img src="static/img/logotipo.png" alt="BLACK STUDIO CROSSGYM">
+                <img src="static/img/logotipo.png" alt="Logo BLACK STUDIO CROSSGYM">
             </div>
             <div class="menu-toggle" id="menuToggle">
                 <i class="fas fa-bars"></i>
@@ -1236,7 +1046,6 @@
             </ul>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section class="hero" id="inicio">
         <div class="hero-content">
@@ -1257,7 +1066,6 @@
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="about" id="nosotros">
         <div class="container">
@@ -1269,7 +1077,6 @@
                     biomecánica articular/muscular con entrenamiento adaptativo y seguimiento progresivo.
                 </p>
             </div>
-
             <div class="about-content">
                 <div class="about-text">
                     <h3>Tu Transformación Comienza Aquí</h3>
@@ -1287,7 +1094,6 @@
                         Ubicados en el corazón de Zapopan, Jalisco, nuestras instalaciones cuentan con equipamiento
                         profesional, espacios amplios y un ambiente que te motivará a superar todos tus límites.
                     </p>
-
                     <div class="about-stats">
                         <div class="stat-item">
                             <span class="stat-number">11+</span>
@@ -1303,14 +1109,12 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="about-image">
-                    <img src="static/img/fondo.jpg" alt="BLACK STUDIO Interior">
+                    <img src="static/img/fondo.jpg" alt="Interior del gimnasio BLACK STUDIO CROSSGYM en Zapopan">
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Services Section -->
     <section class="services" id="servicios">
         <div class="container">
@@ -1321,7 +1125,6 @@
                     Programas integrales diseñados para llevarte al siguiente nivel, sin importar tu punto de partida.
                 </p>
             </div>
-
             <div class="services-grid">
                 <div class="service-card">
                     <i class="fas fa-users service-icon"></i>
@@ -1331,7 +1134,6 @@
                         reducidos para máxima atención personalizada.
                     </p>
                 </div>
-
                 <div class="service-card">
                     <i class="fas fa-user service-icon"></i>
                     <h3 class="service-title">Entrenamientos Personalizados</h3>
@@ -1340,7 +1142,6 @@
                         características específicas adaptadas a sus necesidades.
                     </p>
                 </div>
-
                 <div class="service-card">
                     <i class="fas fa-sync service-icon"></i>
                     <h3 class="service-title">Entrenamientos Adaptativos</h3>
@@ -1349,7 +1150,6 @@
                         progresiva al mundo deportivo.
                     </p>
                 </div>
-
                 <div class="service-card">
                     <i class="fas fa-apple-alt service-icon"></i>
                     <h3 class="service-title">Planes de Alimentación</h3>
@@ -1358,7 +1158,6 @@
                         por etapas y objetivos específicos.
                     </p>
                 </div>
-
                 <div class="service-card">
                     <i class="fas fa-weight service-icon"></i>
                     <h3 class="service-title">Valoraciones Corporales</h3>
@@ -1367,7 +1166,6 @@
                         masa muscular, agua corporal y metabolismo basal.
                     </p>
                 </div>
-
                 <div class="service-card">
                     <i class="fas fa-store service-icon"></i>
                     <h3 class="service-title">Tienda Especializada</h3>
@@ -1379,7 +1177,6 @@
             </div>
         </div>
     </section>
-
     <!-- Gallery Section -->
     <section class="gallery" id="galeria">
         <div class="container">
@@ -1390,30 +1187,28 @@
                     Instalaciones competitivas diseñadas para maximizar tu experiencia de entrenamiento.
                 </p>
             </div>
-
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="static/img/1.jpg" alt="Instalación 1">
+                    <img src="static/img/1.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 1" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="static/img/2.jpg" alt="Instalación 2">
+                    <img src="static/img/2.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 2" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="static/img/3.jpg" alt="Instalación 3">
+                    <img src="static/img/3.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 3" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="static/img/4.jpg" alt="Instalación 4">
+                    <img src="static/img/4.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 4" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="static/img/5.jpg" alt="Instalación 5">
+                    <img src="static/img/5.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 5" loading="lazy">
                 </div>
                 <div class="gallery-item">
-                    <img src="static/img/6.jpg" alt="Instalación 6">
+                    <img src="static/img/6.jpg" alt="Instalaciones BLACK STUDIO CROSSGYM - Área 6" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Video Section -->
     <section class="video-section" id="video">
         <div class="container">
@@ -1424,10 +1219,9 @@
                     Mira cómo transformamos vidas en BLACK STUDIO CROSSGYM
                 </p>
             </div>
-
             <div class="video-container">
                 <div class="video-player">
-                    <video controls autoplay muted loop playsinline>
+                    <video controls autoplay muted loop playsinline poster="static/img/logotipo.png">
                         <source src="static/img/videoportada.mp4" type="video/mp4">
                         Tu navegador no soporta el elemento video.
                     </video>
@@ -1439,7 +1233,6 @@
             </div>
         </div>
     </section>
-
     <!-- Testimonials Section -->
     <section class="testimonials" id="testimonios">
         <div class="container">
@@ -1450,7 +1243,6 @@
                     Lo que nuestros clientes dicen sobre su experiencia en BLACK STUDIO.
                 </p>
             </div>
-
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-text">
@@ -1465,7 +1257,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="testimonial-card">
                     <div class="testimonial-text">
                         El entrenamiento personalizado ha cambiado completamente mi forma de ver el ejercicio. Los
@@ -1479,7 +1270,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="testimonial-card">
                     <div class="testimonial-text">
                         Como principiante, me sentí muy cómodo desde el primer día. Los entrenamientos adaptativos me
@@ -1496,7 +1286,6 @@
             </div>
         </div>
     </section>
-
     <!-- Schedule Section -->
     <section class="schedule" id="horarios">
         <div class="container">
@@ -1507,7 +1296,6 @@
                     Horarios flexibles diseñados para adaptarse a tu estilo de vida.
                 </p>
             </div>
-
             <div class="schedule-content">
                 <div class="schedule-card">
                     <h3>Lunes a Viernes</h3>
@@ -1520,12 +1308,11 @@
                         <span>5:00 PM - 10:00 PM</span>
                     </div>
                 </div>
-
                 <div class="schedule-card">
                     <h3>Sábados</h3>
                     <div class="time-slot">
                         <span>Mañana</span>
-                        <span>7:00 AM - 2:00 PM</span>
+                        <span>8:00 AM - 11:00 AM</span>
                     </div>
                     <div class="time-slot">
                         <span>Tarde</span>
@@ -1535,7 +1322,6 @@
             </div>
         </div>
     </section>
-
     <!-- Location Section -->
     <section class="location" id="ubicacion">
         <div class="container">
@@ -1546,7 +1332,6 @@
                     En el corazón de Zapopan, Jalisco. Fácil acceso y estacionamiento disponible.
                 </p>
             </div>
-
             <div class="location-content">
                 <div class="location-info">
                     <div class="info-item">
@@ -1556,7 +1341,6 @@
                             <p>Av Felipe Zetter 3417, Col. Paseos de Sol<br>C.P. 45079, Zapopan, Jalisco</p>
                         </div>
                     </div>
-
                     <div class="info-item">
                         <i class="fas fa-phone info-icon"></i>
                         <div class="info-text">
@@ -1564,7 +1348,6 @@
                             <p>33 3855 8454</p>
                         </div>
                     </div>
-
                     <div class="info-item">
                         <i class="fas fa-envelope info-icon"></i>
                         <div class="info-text">
@@ -1572,7 +1355,6 @@
                             <p>blacksquad2014@gmail.com</p>
                         </div>
                     </div>
-
                     <div class="info-item">
                         <i class="fas fa-clock info-icon"></i>
                         <div class="info-text">
@@ -1583,9 +1365,7 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="location-map">
-
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d444.00147597243034!2d-103.43227625316652!3d20.633629347617287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2smx!4v1762827792431!5m2!1ses-419!2smx"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -1594,7 +1374,6 @@
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section class="contact" id="contacto">
         <div class="container">
@@ -1606,25 +1385,21 @@
                     gratuita.
                 </p>
             </div>
-
             <form class="contact-form" id="contactForm" action="https://formspree.io/f/xblqjogr" method="POST">
                 <div class="form-group">
                     <label for="name">Nombre Completo</label>
                     <input type="text" id="name" name="name" class="form-control" placeholder="Tu nombre" required>
                 </div>
-
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" class="form-control" placeholder="tu@email.com"
                         required>
                 </div>
-
                 <div class="form-group">
                     <label for="phone">Teléfono</label>
                     <input type="tel" id="phone" name="phone" class="form-control" placeholder="+52 33 1234 5678"
                         required>
                 </div>
-
                 <div class="form-group">
                     <label for="service">¿Qué servicio/producto te interesa más?</label>
                     <select id="service" name="service" class="form-control" required>
@@ -1638,18 +1413,15 @@
                         <option value="otros">Otros</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="message">Mensaje</label>
                     <textarea id="message" name="message" class="form-control"
                         placeholder="Cuéntanos sobre tus objetivos..." required></textarea>
                 </div>
-
                 <button type="submit" class="form-button">Enviar Mensaje</button>
             </form>
         </div>
     </section>
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -1668,7 +1440,6 @@
                         <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
-
                 <div class="footer-column">
                     <h3>Enlaces</h3>
                     <ul class="footer-links">
@@ -1680,7 +1451,6 @@
                         <li><a href="#testimonios">Testimonios</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-column">
                     <h3>Servicios</h3>
                     <ul class="footer-links">
@@ -1691,7 +1461,6 @@
                         <li><a href="#servicios">Valoración Corporal</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-column">
                     <h3>Contacto</h3>
                     <ul class="footer-links">
@@ -1701,48 +1470,37 @@
                     </ul>
                 </div>
             </div>
-
             <div class="copyright">
-                <p>&copy; 2025 BLACK STUDIO CROSSGYM. Todos los derechos reservados. | Diseñado con 💪 en Zapopan</p>
+                <p>&copy; 2026 BLACK STUDIO CROSSGYM. Todos los derechos reservados. | Diseñado con 💪 en Zapopan</p>
             </div>
         </div>
     </footer>
-
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/3328329710" class="whatsapp-float" target="_blank">
+    <a href="https://wa.me/3328329710" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
         <i class="fab fa-whatsapp"></i>
         <span class="whatsapp-tooltip">¡Contáctanos por WhatsApp!</span>
     </a>
-
     <script>
         // Preloader
         window.addEventListener('load', () => {
             const preloader = document.getElementById('preloader');
             const loadingProgress = document.getElementById('loadingProgress');
-
-            // Simulate loading progress
             let progress = 0;
             const interval = setInterval(() => {
                 progress += Math.random() * 15;
                 if (progress >= 100) {
                     progress = 100;
                     clearInterval(interval);
-
-                    // Hide preloader after a short delay
                     setTimeout(() => {
                         preloader.classList.add('fade-out');
-
-                        // Remove preloader from DOM after animation
                         setTimeout(() => {
                             preloader.style.display = 'none';
                         }, 500);
                     }, 300);
                 }
-
                 loadingProgress.style.width = `${progress}%`;
             }, 150);
         });
-
         // Navbar Scroll Effect
         window.addEventListener('scroll', () => {
             const navbar = document.getElementById('navbar');
@@ -1752,11 +1510,9 @@
                 navbar.classList.remove('scrolled');
             }
         });
-
         // Mobile Menu Toggle
         const menuToggle = document.getElementById('menuToggle');
         const navMenu = document.getElementById('navMenu');
-
         menuToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             const icon = menuToggle.querySelector('i');
@@ -1768,7 +1524,6 @@
                 icon.classList.add('fa-bars');
             }
         });
-
         // Close Menu on Link Click
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
@@ -1778,7 +1533,6 @@
                 icon.classList.add('fa-bars');
             });
         });
-
         // Smooth Scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1792,21 +1546,14 @@
                 }
             });
         });
-
-        // Form Submission
         // Form Submission
         document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
-
             const form = this;
             const submitButton = form.querySelector('.form-button');
             const originalText = submitButton.textContent;
-
-            // Mostrar estado de carga
             submitButton.textContent = 'Enviando...';
             submitButton.disabled = true;
-
-            // Enviar formulario
             fetch(form.action, {
                 method: 'POST',
                 body: new FormData(form),
@@ -1827,19 +1574,16 @@
                     console.error('Error:', error);
                 })
                 .finally(() => {
-                    // Restaurar botón
                     submitButton.textContent = originalText;
                     submitButton.disabled = false;
                 });
         });
-
         // Counter Animation
         function animateCounter(element) {
             const target = parseInt(element.textContent);
             const duration = 2000;
             const step = target / (duration / 16);
             let current = 0;
-
             const timer = setInterval(() => {
                 current += step;
                 if (current >= target) {
@@ -1850,20 +1594,16 @@
                 }
             }, 16);
         }
-
         // Intersection Observer for Animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -100px 0px'
         };
-
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '1';
                     entry.target.style.transform = 'translateY(0)';
-
-                    // Animate stats if it's a stat item
                     if (entry.target.classList.contains('stat-item')) {
                         const number = entry.target.querySelector('.stat-number');
                         animateCounter(number);
@@ -1871,8 +1611,6 @@
                 }
             });
         }, observerOptions);
-
-        // Observe elements for animation
         document.querySelectorAll('.service-card, .gallery-item, .testimonial-card, .stat-item, .info-item, .video-player').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
@@ -1881,5 +1619,4 @@
         });
     </script>
 </body>
-
 </html>
